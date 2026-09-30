@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9f2">
+  <meta name="description" content="Homemade celebration cakes, cupcakes, muffins and treat boxes from Bee’s Delights, baked with care for your special moments.">
+  <title>Bee’s Delights | Homemade cakes &amp; sweet treats</title>
+  <link rel="icon" href="public/images/bees-delights-logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bee’s Delights home"><img src="public/images/bees-delights-logo.png" alt="Bee’s Delights — Layers of happiness in every bite"></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#treats">Our treats</a><a href="#custom">Custom cakes</a><a href="#about">Our story</a><a href="#contact">Contact</a>
+      <a class="nav-order" href="#custom">Place an enquiry <span aria-hidden="true">✿</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy"><p class="eyebrow"><span class="bee-mark">✿</span> Small-batch baking, big-hearted joy</p>
+        <h1>A little sweetness<br>for your <em>big moments.</em></h1>
+        <p class="hero-intro">Homemade cakes and treats, lovingly made and beautifully finished for birthdays, celebrations, and all the lovely in-between moments.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#treats">Explore the treats</a><a class="text-link" href="#custom">Dream up a custom cake <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="note-icon">♡</span><span><strong>Made with care, always</strong><br>Every bake gets a personal touch.</span></div>
+      </div>
+      <div class="hero-art"><div class="photo-frame"><img src="public/images/custom-celebration-cake.jpg" alt="A colourful custom celebration cake decorated with piped frosting and birthday lettering"><span class="photo-sticker">Baked<br>with love</span></div><div class="hero-caption"><span class="caption-rule"></span><span>For birthdays, gatherings &amp; just because</span></div><span class="sprinkle sprinkle-one">✳</span><span class="sprinkle sprinkle-two">✿</span></div>
+    </section>
+    <section class="ticker" aria-label="Bakery specialties"><div class="ticker-track"><span>Celebration cakes</span><b>✿</b><span>Freshly baked joy</span><b>✿</b><span>Cupcakes &amp; muffins</span><b>✿</b><span>Made just for you</span><b>✿</b><span>Celebration cakes</span><b>✿</b><span>Freshly baked joy</span><b>✿</b><span>Cupcakes &amp; muffins</span><b>✿</b></div></section>
+    <section id="treats" class="treats section-wrap section-space">
+      <div class="section-heading"><div><p class="eyebrow">A menu made for happy occasions</p><h2>Something lovely<br><em>for every table.</em></h2></div><p class="heading-aside">From a little treat to the centrepiece of the party, let’s make it memorable.</p></div>
+      <div class="product-grid">
+        <article class="product-card product-feature"><div class="product-photo"><img src="public/images/featured-celebration-cake.jpg" alt="Hand-decorated celebration cake with pink, yellow, and chocolate buttercream flowers" loading="lazy"><span class="image-label">Customer favourite</span></div><div class="product-info"><div><p class="product-kicker">Made for the moment</p><h3>Celebration cakes</h3></div><span class="card-flower">✿</span><p>Birthday, wedding, anniversary and special-event cakes, made to bring your idea to life.</p><a class="card-link" href="#custom">Request a cake <span aria-hidden="true">↗</span></a></div></article>
+        <article class="product-card"><div class="product-photo"><img src="public/images/decorated-cupcakes.jpg" alt="A tray of colourful decorated cupcakes with piped frosting" loading="lazy"></div><div class="product-info"><div><p class="product-kicker">Little bites, lots of joy</p><h3>Cupcakes &amp; mini cakes</h3></div><span class="card-flower">♡</span><p>Choose the flavours, colours and decorations that suit your celebration.</p><a class="card-link" href="#custom">Ask about cupcakes <span aria-hidden="true">↗</span></a></div></article>
+        <article class="product-card"><div class="product-photo"><img src="public/images/fresh-muffins.jpg" alt="A plate piled with freshly baked chocolate chip, marble, and vanilla muffins" loading="lazy"></div><div class="product-info"><div><p class="product-kicker">A fresh-from-the-oven treat</p><h3>Muffins &amp; treat boxes</h3></div><span class="card-flower">✳</span><p>Chocolate, vanilla, banana, red velvet, seasonal flavours, and sweet assortments to share or gift.</p><a class="card-link" href="#custom">Build a treat box <span aria-hidden="true">↗</span></a></div></article>
+      </div>
+      <p class="price-note">Tell us what you have in mind and we’ll confirm options and pricing with you.</p>
+    </section>
+    <section class="custom-band" id="custom"><div class="custom-inner section-wrap"><div class="custom-copy"><p class="eyebrow">A cake that feels like yours</p><h2>Bring us your<br><em>celebration idea.</em></h2><p>Share the occasion, your favourite flavours, and the colours or theme you’re imagining. We’ll be in touch to talk through the details.</p><div class="custom-callout"><span>01</span><span>Birthday, wedding, anniversary or a sweet surprise</span></div></div>
+      <form class="order-form" name="cake-enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/?enquiry=received#custom">
+        <input type="hidden" name="form-name" value="cake-enquiry"><p class="hidden-field"><label>Leave this empty: <input name="bot-field"></label></p>
+        <div class="form-heading"><span>Tell us a little</span><span class="form-heart">♡</span></div>
+        <div class="form-grid"><label>Your name <input name="name" autocomplete="name" required placeholder="Name"></label><label>Phone or email <input name="contact" required placeholder="How can we reach you?"></label>
+          <label>What are you craving? <select name="product" required><option value="">Choose a treat</option><option>Celebration cake</option><option>Cupcakes or mini cakes</option><option>Muffins</option><option>Treat box</option><option>Something else</option></select></label><label>Flavour / size <input name="flavour-size" placeholder="Your favourites"></label>
+          <label>Occasion date <input name="date-needed" type="date"></label><label>Quantity / size <input name="quantity" placeholder="For example, 12 cupcakes"></label>
+          <label class="full-field">Theme, colours or special requests <textarea name="message" rows="3" placeholder="Tell us about your idea…"></textarea></label>
+        </div><button class="button button-dark submit-button" type="submit">Send your enquiry <span aria-hidden="true">♡</span></button><p class="form-footnote">We’ll confirm availability and pricing with you personally.</p><p class="form-status" aria-live="polite"></p>
+      </form></div></section>
+    <section class="about section-wrap section-space" id="about"><div class="about-image"><img src="public/images/custom-celebration-cake.jpg" alt="A close look at one of Bee’s Delights’ decorated celebration cakes" loading="lazy"><span class="about-seal">A little<br><strong>love</strong><br>in every bake</span></div><div class="about-copy"><p class="eyebrow">A homegrown little bakery</p><h2>Thoughtful bakes.<br><em>Happy memories.</em></h2><p>Bee’s Delights is a small, homegrown baking business creating homemade cakes and muffins with care, creativity, and a personal touch. From choosing the flavours to the final decoration, every order gets the attention it deserves.</p><p>Whether you’re celebrating a birthday, sharing with family, or simply craving something sweet, we’d love to add a little joy to your day.</p><a class="button button-outline" href="#custom">Let’s plan your treat</a></div></section>
+    <section id="contact" class="contact section-wrap section-space"><div class="contact-card"><div><p class="eyebrow">We’d love to hear from you</p><h2>Let’s make<br>something <em>sweet.</em></h2><p>Have a date in mind or a flavour you love? Send an enquiry and we’ll help you plan the details.</p><a class="button button-light" href="#custom">Start an order enquiry</a></div><div class="contact-details"><div class="tiktok-contact"><span>Follow us on TikTok</span><a href="https://www.tiktok.com/@s.delights8?_r=1&amp;_t=ZS-9A9BbUSXu9x" target="_blank" rel="noopener noreferrer">@s.delights8 <span aria-hidden="true">↗</span></a></div></div><span class="contact-bee" aria-hidden="true">✿</span></div></section>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="#home"><img src="public/images/bees-delights-logo.png" alt="Bee’s Delights"></a><p>Layers of happiness in every bite.</p><nav aria-label="Footer navigation"><a href="#treats">Our treats</a><a href="#custom">Custom cakes</a><a href="#about">Our story</a><a href="#contact">Contact</a></nav><small>© <span id="year"></span> Bee’s Delights. Made with care.</small></footer>
+</body>
+</html>
